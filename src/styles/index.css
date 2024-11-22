@@ -39,3 +39,9 @@ input{
     position: relative;
     left: 30px;
 }
+.todo-item .hide-icon {
+    visibility: hidden;
+}
+.todo-item:hover .hide-icon {
+    visibility: visible;
+}
